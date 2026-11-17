@@ -72,10 +72,4 @@ This is a deterministic simulation, not an operating-system implementation or a 
 
 Actual context switches take time. A smaller quantum can increase switching frequency. For an illustrative steady-state model with one switch of cost c after each full quantum q, the switching share is c / (q + c). For q = 1 ms and an assumed c = 0.1 ms, that share is about 9.1%. This cost is **not included** in the program's results and is not a measured hardware value.
 
-## Continue the exploration
-
-Run a different workload, explain one result in your own words, and compare it with your prediction. A useful starting point is `./scheduler 2 6 4 2`: does a shorter CPU burst change the response-versus-turnaround comparison?
-
-Before submitting the course project, review your presentation and add a truthful learning reflection with representative prompts and the AI conversation permalink. The presentation recording must be submitted separately according to the course instructions.
-
 See [RESOURCES.md](RESOURCES.md) for the sources behind the scheduling concepts.
