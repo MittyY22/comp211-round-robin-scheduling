@@ -1,7 +1,4 @@
-/* Educational CPU scheduling model: all jobs arrive at time 0.
- * One core, no I/O, and no context-switch cost.
- * AI-assisted starter example for COMP 211 Checkoff 3.
- */
+/* Educational CPU scheduling model: all jobs arrive at time 0.*/
 #include <errno.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -31,9 +28,7 @@ static void simulate(const int burst[], int count, int quantum,
 
     printf("\n%s (quantum = %d ms)\n", label, quantum);
     printf("Schedule:\n");
-    /* With simultaneous arrivals and no blocking, cyclic scanning is
-     * equivalent to taking the head of a queue and requeuing unfinished jobs.
-     */
+
     while (finished < count) {
         for (int i = 0; i < count; i++) {
             if (remaining[i] == 0) continue;
@@ -51,7 +46,6 @@ static void simulate(const int burst[], int count, int quantum,
 
     printf("Process  Burst  First run  Completion  Response  Turnaround (ms)\n");
     for (int i = 0; i < count; i++) {
-        /* Arrival is zero, so first run = response and completion = turnaround. */
         printf("   %c     %5d  %9d  %10d  %8d  %10d\n",
                'A' + i, burst[i], first[i], completion[i], first[i], completion[i]);
         response_sum += first[i];
@@ -93,7 +87,6 @@ int main(int argc, char *argv[]) {
 
     puts("All processes arrive at 0 ms in alphabetical order.");
     puts("Single core, no I/O, context-switch cost ignored.");
-    /* A quantum at least as large as every burst produces the FCFS schedule. */
     simulate(burst, count, maximum, "FCFS baseline");
     if (quantum) {
         simulate(burst, count, quantum, "Round robin");
