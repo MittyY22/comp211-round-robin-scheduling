@@ -4,10 +4,6 @@ COMP 211 Checkoff 3 topic: **Operating System Scheduling: Round-Robin Scheduling
 
 This project uses a small C simulator to explore how a CPU scheduler shares time among ready processes. It compares round robin (RR) with first-come, first-served (FCFS) and examines the effect of the time quantum.
 
-## Project status and AI assistance
-
-This repository is an AI-assisted learning starter. The code and initial explanations were prepared with Codex, and the included presentation is an **AI-generated study draft**. They do not establish that the student has independently completed the exploration. The course instructions require student-created slides, so the study draft needs to be replaced with a presentation organized and written by the student before submission. A personal reflection and AI conversation permalink still need to be added by the student.
-
 ## Contents
 
 | File | Purpose |
