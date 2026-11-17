@@ -10,6 +10,7 @@ This project uses a small C simulator to explore how a CPU scheduler shares time
 | --- | --- |
 | [scheduler.c](scheduler.c) | Runnable C model with FCFS and RR examples |
 | [sample_results.txt](sample_results.txt) | Actual output from compiling and running the default example |
+| [FCFS_Round_Robin.key](FCFS_Round_Robin.key) | Presentation slides (Apple Keynote) |
 | [RESOURCES.md](RESOURCES.md) | Academic sources and suggestions for further exploration |
 
 ## Run the example
@@ -74,6 +75,6 @@ Actual context switches take time. A smaller quantum can increase switching freq
 
 Run a different workload, explain one result in your own words, and compare it with your prediction. A useful starting point is `./scheduler 2 6 4 2`: does a shorter CPU burst change the response-versus-turnaround comparison?
 
-Before submitting the course project, add your own final slides and a truthful learning reflection with representative prompts and the AI conversation permalink. The presentation recording must be submitted separately according to the course instructions.
+Before submitting the course project, review your presentation and add a truthful learning reflection with representative prompts and the AI conversation permalink. The presentation recording must be submitted separately according to the course instructions.
 
 See [RESOURCES.md](RESOURCES.md) for the sources behind the scheduling concepts.
