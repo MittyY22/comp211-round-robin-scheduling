@@ -10,7 +10,6 @@ This project uses a small C simulator to explore how a CPU scheduler shares time
 | --- | --- |
 | [scheduler.c](scheduler.c) | Runnable C model with FCFS and RR examples |
 | [sample_results.txt](sample_results.txt) | Actual output from compiling and running the default example |
-| [AI_GENERATED_STUDY_DRAFT.pptx](AI_GENERATED_STUDY_DRAFT.pptx) | Editable study draft with English speaker notes and Chinese learning hints |
 | [RESOURCES.md](RESOURCES.md) | Academic sources and suggestions for further exploration |
 
 ## Run the example
