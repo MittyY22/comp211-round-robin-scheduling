@@ -11,6 +11,7 @@ This project uses a small C simulator to explore how a CPU scheduler shares time
 | [scheduler.c](scheduler.c) | Runnable C model with FCFS and RR examples |
 | [sample_results.txt](sample_results.txt) | Actual output from compiling and running the default example |
 | [FCFS_Round_Robin.key](FCFS_Round_Robin.key) | Presentation slides (Apple Keynote) |
+| [Presentation recording](https://github.com/MittyY22/comp211-round-robin-scheduling/releases/tag/presentation-recording) | Full presentation video (.mov), available under Assets |
 | [RESOURCES.md](RESOURCES.md) | Academic sources and suggestions for further exploration |
 
 ## Run the example
